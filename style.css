@@ -1,0 +1,151 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    padding: 0;
+}
+
+.main-nav li {
+    float: left;
+}
+
+.main-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    background-color:rgb(116, 15, 15);
+}
+
+.main-header {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.carousel {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: none;
+    border-radius: 10px;
+}
+
+.carousel img:first-child {
+    display: block;
+}
+
+.basic-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.basic-info h1, .basic-info p {
+    margin: 10px 0;
+    color: red;
+}
+
+.footer {
+    background-color: #202020;
+    color: white;
+    padding: 20px;
+    position: relative;
+    height: 20vh;
+}
+
+.footer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-media a:hover {
+    color: #FFA500;
+}
+
+.author {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 16px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 16px;
+    margin-bottom: 32px;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.responsive-img:hover {
+    transform: scale(1.1);
+}
+
+.additional-info {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
